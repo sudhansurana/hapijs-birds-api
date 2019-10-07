@@ -10,7 +10,10 @@ export default require( 'knex' )( {
 
         database: 'birdbase',
         charset: 'utf8',
-
+        port: '1433'
+    },
+    options: {
+      encrypt: true // Use this if you're on Windows Azure
     }
 
 } );
