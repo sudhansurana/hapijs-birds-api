@@ -1,12 +1,12 @@
 export default require( 'knex' )( {
 
-    client: 'mysql',
+    client: 'mssql',
     connection: {
 
-        host: '192.168.33.10',
+        host: 'fg-db.database.windows.net',
 
-        user: 'birdbase',
-        password: 'password',
+        user: 'dbuser',
+        password: 'philips@123',
 
         database: 'birdbase',
         charset: 'utf8',
