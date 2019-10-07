@@ -8,12 +8,12 @@ module.exports = {
         client: 'mssql',
         connection: {
 
-            server: 'fgdev1.database.windows.net',
+            server: 'fg-db.database.windows.net',
 
-            user: 'birdbase',
-            password: 'password',
+            user: 'dbuser',
+            password: 'philips@123',
 
-            database: 'fgdev1',
+            database: 'birdbase',
             charset: 'utf8',
 
         }
