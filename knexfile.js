@@ -5,15 +5,15 @@ module.exports = {
         migrations: { tableName: 'knex_migrations' },
         seeds: { tableName: './seeds' },
 
-        client: 'mysql',
+        client: 'mssql',
         connection: {
 
-            host: '192.168.33.10',
+            server: 'fgdev1.database.windows.net',
 
             user: 'birdbase',
             password: 'password',
 
-            database: 'birdbase',
+            database: 'fgdev1',
             charset: 'utf8',
 
         }
